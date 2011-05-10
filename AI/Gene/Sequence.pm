@@ -6,7 +6,7 @@ use warnings;
 BEGIN {
   use Exporter   ();
   our ($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
-  $VERSION     = 0.20;
+  $VERSION     = 0.22;
   @ISA         = qw(Exporter);
   @EXPORT      = ();
   %EXPORT_TAGS = ();
