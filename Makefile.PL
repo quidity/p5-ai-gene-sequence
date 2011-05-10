@@ -13,7 +13,7 @@ WriteMakefile(
     'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
     'PL_FILES'          => {}, # some demos included, do not need to be run
     'PM'                => { 'AI/Gene/Sequence.pm'
-			     => '$(INST_LIBDIR)/AI/Gene/Sequence.pm',
+			     => '$(INST_LIBDIR)/Sequence.pm',
 			     'AI/Gene/Simple.pm'
-			     => '$(INST_LIBDIR)/AI/Gene/Simple.pm'},
+			     => '$(INST_LIBDIR)/Simple.pm'},
 );
